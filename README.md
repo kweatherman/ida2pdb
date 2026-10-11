@@ -1,6 +1,6 @@
 <img align="center" src="res/ida2pdb.png" alt="ida2pdb"/>
 
-## "IDA to PDB" is a IDA Pro binary plugin that generates a PDB file from the function and data names for symbols in a debugger.
+## "IDA to PDB" is an IDA Pro binary plugin that generates a PDB file from the function and data names for symbols in a debugger.
 
 ### Before, just addresses
 
