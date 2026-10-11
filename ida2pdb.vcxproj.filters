@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\IDA_Support\Utility\Utility.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugParser.cpp" />
+    <ClCompile Include="NameCollector.cpp" />
+    <ClCompile Include="PdbWriter.cpp" />
+    <ClCompile Include="PeParser.cpp" />
+    <ClCompile Include="SymbolStore.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="..\IDA_Support\IDA_WaitEx\include\WaitBoxEx.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IDA_Support\Utility\Utility.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="NameCollector.h" />
+    <ClInclude Include="PdbWriter.h" />
+    <ClInclude Include="DebugParser.h" />
+    <ClInclude Include="PeParser.h" />
+    <ClInclude Include="SymbolStore.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Support">
+      <UniqueIdentifier>{989e83d9-d9e9-43ed-b17f-8bcc3de39a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Doc">
+      <UniqueIdentifier>{2b9e2042-334d-485c-8d8c-33e5abcdff25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LocalData\project notes.txt">
+      <Filter>Doc</Filter>
+    </Text>
+    <Text Include="LocalData\ScratchPad.txt">
+      <Filter>Doc</Filter>
+    </Text>
+    <Text Include="LocalData\TODO.txt">
+      <Filter>Doc</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

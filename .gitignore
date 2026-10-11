@@ -1,0 +1,30 @@
+
+# Misc and local project stuff
+desktop.ini
+README.md.backup
+LocalData/
+fixtures-private/
+test_results/
+pe-identity/
+writer-smoke/
+release/
+
+# Don't track the huge LLVM header/lib folder
+# Run "all-in-one-local-llvm.ps1" to download and build it
+/llvm/
+
+# Cursor
+.cursorignore
+.cursor/
+doc/
+idasdk_headers/
+tools/
+
+# Visual Studio
+.vs/
+x64/
+*.aps
+*.vcxproj.user
+
+# PyCharm
+.idea/

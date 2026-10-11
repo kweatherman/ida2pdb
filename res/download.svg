@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="121" height="28" viewBox="0 0 121 28" role="img" aria-labelledby="title">
+  <title id="title">Download</title>
+  <rect width="121" height="28" fill="#CA9E5D"/>
+  <g fill="none" stroke="#000" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8v8m-3-3 3 3 3-3"/>
+    <path d="M10 16v4h12v-4"/>
+  </g>
+  <text x="70.5" y="17.5" fill="#000" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="10" font-weight="bold" text-anchor="middle" textLength="77" lengthAdjust="spacingAndGlyphs">DOWNLOAD</text>
+</svg>
